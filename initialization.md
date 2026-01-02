@@ -1,4 +1,3 @@
-```md
 # Initialization
 
 ## Vanilla Android
@@ -20,4 +19,3 @@ waydroid status
 ```
 
 This should show "running".
-```
