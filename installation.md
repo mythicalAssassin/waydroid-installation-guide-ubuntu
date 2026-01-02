@@ -1,24 +1,24 @@
-
 ---
+## docs/02-installation.md
 
-## `docs/02-installation.md`
-
-```md
 # Installation
 
 ## Update system
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
 
-# Install dependencies
+## Install dependencies
 ```bash
 sudo apt install curl ca-certificates lsb-release -y
+```
 
-# Add Waydroid repo
+## Add Waydroid repo
 ```bash
-curl https://repo.waydro.id | sudo bash
+curl -sSL https://repo.waydro.id | sudo bash
+```
 
-#Install Waydroid
+## Install Waydroid
 ```bash
 sudo apt install waydroid -y
-
+```
