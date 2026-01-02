@@ -1,21 +1,23 @@
-
----
-
-## `docs/03-initialization.md`
-
 ```md
 # Initialization
 
 ## Vanilla Android
+
 ```bash
 sudo waydroid init
+```
 
-# Enable service
+## Enable service
+
 ```bash
 sudo systemctl enable waydroid-container --now
+```
 
-# Check status
+## Check status
+
 ```bash
 waydroid status
+```
 
-# This should show "running"
+This should show "running".
+```
